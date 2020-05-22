@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sashakt</string>
+    <string name="student_title">Student</string>
+    <string name="teacher_title">Teacher</string>
+    <string name="school">School</string>
+    <string name="download_resource">Download Resource</string>
+    <string name="class_school">Class</string>
+    <string name="module">Module</string>
+    <string name="password">Password</string>
+    <string name="teacher_id">Teacher ID</string>
+    <string name="upload_resource">Upload Resource</string>
+</resources>

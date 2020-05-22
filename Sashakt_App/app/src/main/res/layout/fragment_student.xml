@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/school_student"
+                android:layout_width="@dimen/form_width"
+                android:layout_height="wrap_content"
+                android:hint="@string/school"
+                app:startIconTint="@null"
+                app:startIconDrawable="@drawable/ic_school"
+                app:boxCornerRadiusBottomEnd="@dimen/box_corner_radius"
+                app:boxCornerRadiusBottomStart="@dimen/box_corner_radius"
+                app:boxCornerRadiusTopEnd="@dimen/box_corner_radius"
+                app:boxCornerRadiusTopStart="@dimen/box_corner_radius"
+                app:boxStrokeColor="@color/stroke_color_outlined"
+                app:hintTextColor="@color/colorOnPrimary"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOnPrimary"
+                    android:textCursorDrawable="@color/colorOnPrimary"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/class_student"
+                android:layout_width="@dimen/form_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/class_school"
+                app:startIconTint="@null"
+                app:startIconDrawable="@drawable/ic_class"
+                app:boxCornerRadiusBottomEnd="@dimen/box_corner_radius"
+                app:boxCornerRadiusBottomStart="@dimen/box_corner_radius"
+                app:boxCornerRadiusTopEnd="@dimen/box_corner_radius"
+                app:boxCornerRadiusTopStart="@dimen/box_corner_radius"
+                app:boxStrokeColor="@color/stroke_color_outlined"
+                app:hintTextColor="@color/colorOnPrimary"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOnPrimary"
+                    android:inputType="number"
+                    android:textCursorDrawable="@color/colorOnPrimary"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/module_student"
+                android:layout_width="@dimen/form_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/module"
+                app:startIconTint="@null"
+                app:startIconDrawable="@drawable/ic_module"
+                app:boxCornerRadiusBottomEnd="@dimen/box_corner_radius"
+                app:boxCornerRadiusBottomStart="@dimen/box_corner_radius"
+                app:boxCornerRadiusTopEnd="@dimen/box_corner_radius"
+                app:boxCornerRadiusTopStart="@dimen/box_corner_radius"
+                app:boxStrokeColor="@color/stroke_color_outlined"
+                app:hintTextColor="@color/colorOnPrimary"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOnPrimary"
+                    android:textCursorDrawable="@color/colorOnPrimary"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/download_button"
+                android:layout_width="@dimen/form_width"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_bg"
+                android:text="@string/download_resource"
+                android:textColor="#FFFFFF"
+                android:elevation="60dp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</layout>
